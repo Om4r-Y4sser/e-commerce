@@ -42,8 +42,8 @@ export default function Navbar() {
   const mainLinks = Links.slice(0, 4)
 
   const [isOpen, setisOpen] = useState(false)
-  const isLoggedIn = true
-  const userName = "Usama"
+  const isLoggedIn = true //l7d m3mel el authntication
+  const userName = "Usama" // static l7d ma3mel el authentication
 
   return (
     <header className='sticky top-0 z-50 bg-white font-medium'>
@@ -373,4 +373,4 @@ export default function Navbar() {
       </div>
     </header>
   )
-}
+}
